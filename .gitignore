@@ -1,0 +1,25 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Node / pnpm
+node_modules/
+dist/
+coverage/
+.pnpm-store/
+
+# Android
+*.apk
+*.aab
+.gradle/
+local.properties
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
